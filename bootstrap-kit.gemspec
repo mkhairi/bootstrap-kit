@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["mkhairi"]
   spec.email         = ["khairi@labs.my"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{All you want from Bootstrap but don`t have in Bootstrap (yet)}
+  spec.description   = %q{All you want from Bootstrap but don`t have in Bootstrap (yet)}
+  spec.homepage      = "http://github.com/mkhairi/bootstrap-kit"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
