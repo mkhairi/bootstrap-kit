@@ -9,9 +9,9 @@ namespace :stylesheets do
    rm_rf "vendor/assets/stylesheets/boostrap-kit"
   end
 
-  desc "Copy #{source_dir}/scss/"
+  desc "Copy #{source_dir}/"
   task :copy do
-    src_dir = "#{source_dir}/scss/."
+    src_dir = "#{source_dir}/*.css"
     tgt_dir = "vendor/assets/stylesheets/bootstrap-kit/"
     mkdir_p tgt_dir
     cp_r src_dir, tgt_dir
